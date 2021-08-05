@@ -1,0 +1,78 @@
+body {
+  background-color: #1450c9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 750px;
+  font-family: 'Fredoka One', cursive;
+}
+
+body div {
+  width: 40%;
+}
+
+body div .consulta {
+  background-color: #ffffff;
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body div .consulta border-top-left-radius
+input {
+  height: 50%;
+}
+
+body div .consulta button {
+  height: 60%;
+}
+
+body div .resultado {
+  background-color: #ffffff;
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+@media (max-width: 600px) {
+  body div .consulta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 120px;
+  }
+  body div .consulta input {
+    width: 90%;
+  }
+  body div .consulta button {
+    height: 20%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
