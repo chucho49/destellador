@@ -1,51 +1,56 @@
 body {
-  background-color: #1450c9;
+  background-color: #fffbf4;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .contenedor_padre {
+  background-color: #0646da;
+  padding: 10px;
+  width: 90%;
+  height: 240px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 750px;
-  font-family: 'Fredoka One', cursive;
-}
-
-body div {
-  width: 40%;
-}
-
-body div .consulta {
-  background-color: #ffffff;
-  height: 50px;
-  width: 100%;
-  padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin: 150px auto;
+}
+
+body .contenedor_padre .consulta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-body div .consulta border-top-left-radius
-input {
-  height: 50%;
-}
-
-body div .consulta button {
-  height: 60%;
-}
-
-body div .resultado {
-  background-color: #ffffff;
-  height: 80px;
   width: 100%;
-  padding: 20px;
+  height: 120px;
+}
+
+body .contenedor_padre .consulta input {
+  width: 65%;
+}
+
+body .contenedor_padre .consulta button {
+  width: 30%;
+}
+
+body .contenedor_padre .resultado {
+  height: 130px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,23 +61,16 @@ body div .resultado {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
 }
 
-@media (max-width: 600px) {
-  body div .consulta {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 120px;
-  }
-  body div .consulta input {
-    width: 90%;
-  }
-  body div .consulta button {
-    height: 20%;
-  }
+body .contenedor_padre .resultado span .label_1 {
+  color: black;
+  padding: 0 10px;
+}
+
+body .contenedor_padre .resultado span label {
+  padding: 0px;
+  font-family: 'Fredoka One', cursive;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
