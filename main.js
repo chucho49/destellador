@@ -1,8 +1,3 @@
-
-
-
-
-
 function calculos() {
 
     var codigo_1=document.getElementById("codigo_pro").value;
@@ -111,6 +106,36 @@ function calculos() {
          
      };
 
+     if(codigo_1=="4201"){
+        
+        cubetaje108();
+ 
+        if (codigo_1=="4201") {
+            return
+        }
+         
+     };
+
+     if(codigo_1=="4202"){
+        
+        cubetaje108();
+ 
+        if (codigo_1=="4202") {
+            return
+        }
+         
+     };
+
+     if(codigo_1=="4768"){
+        
+        cubetaje108();
+ 
+        if (codigo_1=="4179") {
+            return
+        }
+         
+     };
+
  /*Cubetaje:60*/
 
     if(codigo_1=="8602"){
@@ -159,6 +184,25 @@ function calculos() {
     };
 
     /*Cubetaje:13*/
+
+    if(codigo_1=="15622"){
+        
+        cubetaje13();
+
+        if (codigo_1=="15622") {
+            return
+        }
+    };
+
+    if(codigo_1=="15623"){
+        
+        cubetaje13();
+
+        if (codigo_1=="15623") {
+            return
+        }
+    };
+
     if(codigo_1=="4140"){
         
         cubetaje13();
@@ -356,9 +400,28 @@ function calculos() {
     
     /*Cubetaje:123*/
 
+    if(codigo_1=="15727"){
+        
+        cubetaje123();
+
+        if (codigo_1=="15727") {
+            return
+        }
+    }
+
+    if(codigo_1=="15852"){
+        
+        cubetaje123();
+
+        if (codigo_1=="15852") {
+            return
+        }
+    }
+
+
     if(codigo_1=="14891"){
         
-        cubetaje12x35();
+        cubetaje123();
 
         if (codigo_1=="14891") {
             return
@@ -367,7 +430,7 @@ function calculos() {
 
     if(codigo_1=="14892"){
         
-        cubetaje12x35();
+        cubetaje123();
 
         if (codigo_1=="14892") {
             return
@@ -376,7 +439,7 @@ function calculos() {
 
     if(codigo_1=="14893"){
         
-        cubetaje12x35();
+        cubetaje123();
 
         if (codigo_1=="14893") {
             return
@@ -385,7 +448,7 @@ function calculos() {
 
     if(codigo_1=="14722"){
         
-        cubetaje12x35();
+        cubetaje123();
 
         if (codigo_1=="14722") {
             return
@@ -394,7 +457,7 @@ function calculos() {
 
     if(codigo_1=="14724"){
         
-        cubetaje12x35();
+        cubetaje123();
 
         if (codigo_1=="14724") {
             return
@@ -403,7 +466,7 @@ function calculos() {
 
     if(codigo_1=="14725"){
         
-        cubetaje12x35();
+        cubetaje123();
 
         if (codigo_1=="14725") {
             return
@@ -412,7 +475,7 @@ function calculos() {
 
     if(codigo_1=="14727"){
         
-        cubetaje12x35();
+        cubetaje123();
 
         if (codigo_1=="14727") {
             return
@@ -421,7 +484,7 @@ function calculos() {
 
     if(codigo_1=="11696"){
         
-        cubetaje12x35();
+        cubetaje123();
 
         if (codigo_1=="11696") {
             return
@@ -430,7 +493,7 @@ function calculos() {
 
     if(codigo_1=="11697"){
         
-        cubetaje12x35();
+        cubetaje123();
 
         if (codigo_1=="11697") {
             return
@@ -560,6 +623,15 @@ function calculos() {
         }
     }
 
+    if(codigo_1=="8633"){
+        
+        cubetaje63();
+
+        if (codigo_1=="8633") {
+            return
+        }
+    }
+
     /*Cubetaje:10x70*/
 
     if(codigo_1=="4743"){
@@ -581,6 +653,55 @@ function calculos() {
             return
         }
     }
+
+    /* cubetaje:162 */
+
+    if(codigo_1=="15536"){
+        
+        cubetaje162();
+
+        if (codigo_1=="15536") {
+            return
+        }
+    }
+
+    if(codigo_1=="15537"){
+        
+        cubetaje162();
+
+        if (codigo_1=="15537") {
+            return
+        }
+    }
+
+    /* cubetaje:51 */
+
+    if(codigo_1=="15854"){
+        
+        cubetaje51();
+
+        if (codigo_1=="15854") {
+            return
+        }
+    }
+
+    /* cubetaje:20 cubetaje20() */
+
+    if(codigo_1=="5042"){
+        
+        cubetaje20();
+
+        if (codigo_1=="5042") {
+            return
+        }
+    }
+
+    else{
+        document.getElementById("descripcion").innerText="Codigo No Valido"; 
+    }
+
+
+    /*--------------------------------------------------------------------------------------------------------------*/
 
     function cubetaje108() {
     
@@ -1050,5 +1171,125 @@ function calculos() {
           
         }
     }
+
+    function cubetaje162() {
+        
+        
+
+        if (cantidad_2>=5670) {
+    
+            var no_estibas= cantidad_2/5670;
+            document.getElementById("estiba").innerText=parseInt(no_estibas);
+            var real_estibas=parseInt(no_estibas);
+            
+            var no_cubetas=real_estibas*5670;
+            var no_cubetas_result=cantidad_2-no_cubetas;
+            var resultado_final_cubetas=no_cubetas_result/163;
+            document.getElementById("cubetas").innerText=parseInt(resultado_final_cubetas);
+            var resultado_final_cubetas_real=parseInt(resultado_final_cubetas)
+    
+            var cubetas_unidades= resultado_final_cubetas_real*163;
+            var suma_estibas_cubetas=no_cubetas+cubetas_unidades;
+            var unidades_reales= cantidad_2-suma_estibas_cubetas;
+    
+            document.getElementById("unidades").innerText=parseInt(unidades_reales);
+            
+       
+            
+        }
+    
+        else{
+            document.getElementById("estiba").innerText="0";
+            var cubetas_2=cantidad_2/163;
+            var cubetas_real=parseInt(cubetas_2);
+            document.getElementById("cubetas").innerText=parseInt(cubetas_real);
+            var cubetas_a_unidades=cubetas_real*163;
+            var unidades_2=cantidad_2-cubetas_a_unidades;
+            document.getElementById("unidades").innerText=parseInt(unidades_2);
+    
+          
+        }
+    }
+
+    function cubetaje51() {
+        
+        
+
+        if (cantidad_2>=1785) {
+    
+            var no_estibas= cantidad_2/1785;
+            document.getElementById("estiba").innerText=parseInt(no_estibas);
+            var real_estibas=parseInt(no_estibas);
+            
+            var no_cubetas=real_estibas*1785;
+            var no_cubetas_result=cantidad_2-no_cubetas;
+            var resultado_final_cubetas=no_cubetas_result/51;
+            document.getElementById("cubetas").innerText=parseInt(resultado_final_cubetas);
+            var resultado_final_cubetas_real=parseInt(resultado_final_cubetas)
+    
+            var cubetas_unidades= resultado_final_cubetas_real*51;
+            var suma_estibas_cubetas=no_cubetas+cubetas_unidades;
+            var unidades_reales= cantidad_2-suma_estibas_cubetas;
+    
+            document.getElementById("unidades").innerText=parseInt(unidades_reales);
+            
+       
+            
+        }
+    
+        else{
+            document.getElementById("estiba").innerText="0";
+            var cubetas_2=cantidad_2/51;
+            var cubetas_real=parseInt(cubetas_2);
+            document.getElementById("cubetas").innerText=parseInt(cubetas_real);
+            var cubetas_a_unidades=cubetas_real*51;
+            var unidades_2=cantidad_2-cubetas_a_unidades;
+            document.getElementById("unidades").innerText=parseInt(unidades_2);
+    
+          
+        }
+    }
+
+    function cubetaje20() {
+        
+        
+
+        if (cantidad_2>=700) {
+    
+            var no_estibas= cantidad_2/700;
+            document.getElementById("estiba").innerText=parseInt(no_estibas);
+            var real_estibas=parseInt(no_estibas);
+            
+            var no_cubetas=real_estibas*700;
+            var no_cubetas_result=cantidad_2-no_cubetas;
+            var resultado_final_cubetas=no_cubetas_result/20;
+            document.getElementById("cubetas").innerText=parseInt(resultado_final_cubetas);
+            var resultado_final_cubetas_real=parseInt(resultado_final_cubetas)
+    
+            var cubetas_unidades= resultado_final_cubetas_real*20;
+            var suma_estibas_cubetas=no_cubetas+cubetas_unidades;
+            var unidades_reales= cantidad_2-suma_estibas_cubetas;
+    
+            document.getElementById("unidades").innerText=parseInt(unidades_reales);
+            
+       
+            
+        }
+    
+        else{
+            document.getElementById("estiba").innerText="0";
+            var cubetas_2=cantidad_2/20;
+            var cubetas_real=parseInt(cubetas_2);
+            document.getElementById("cubetas").innerText=parseInt(cubetas_real);
+            var cubetas_a_unidades=cubetas_real*20;
+            var unidades_2=cantidad_2-cubetas_a_unidades;
+            document.getElementById("unidades").innerText=parseInt(unidades_2);
+    
+          
+        }
+    }
+
+    
     
 }
+
