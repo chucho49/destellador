@@ -5,6 +5,18 @@ function calculos() {
    
 /*Cubetaje:108*/ 
 
+    if(codigo_1=="4909"){
+        
+        cubetaje108();
+        document.getElementById("descripcion").innerText="A.L Rgn Fre Vaso 150G"
+        document.getElementById("cubetaje").innerText="108"
+
+        if (codigo_1=="4909") {
+            return
+        }
+
+    }
+
     if(codigo_1=="4800"){
         
     cubetaje108();
@@ -27,7 +39,7 @@ function calculos() {
             return
         }
          
-        };
+    };
 
     if(codigo_1=="15513"){
         
@@ -115,7 +127,9 @@ function calculos() {
 
     if(codigo_1=="4766"){
         
-       cubetaje108();
+        cubetaje108();
+        document.getElementById("descripcion").innerText="Yogo Fre Vaso 150G"
+        document.getElementById("cubetaje").innerText="108"
 
        if (codigo_1=="4766") {
            return
@@ -126,6 +140,8 @@ function calculos() {
     if(codigo_1=="4767"){
         
         cubetaje108();
+        document.getElementById("descripcion").innerText="Yogo Mor Vaso 150G"
+        document.getElementById("cubetaje").innerText="108"
  
         if (codigo_1=="4767") {
             return
@@ -218,6 +234,8 @@ function calculos() {
      if(codigo_1=="4201"){
         
         cubetaje108();
+        document.getElementById("descripcion").innerText="Yog Orig Fre Vaso 150G"
+        document.getElementById("cubetaje").innerText="108"
  
         if (codigo_1=="4201") {
             return
@@ -228,6 +246,8 @@ function calculos() {
      if(codigo_1=="4202"){
         
         cubetaje108();
+        document.getElementById("descripcion").innerText="Yog Orig Melo Vaso 150G"
+        document.getElementById("cubetaje").innerText="108"
  
         if (codigo_1=="4202") {
             return
@@ -238,6 +258,8 @@ function calculos() {
      if(codigo_1=="4768"){
         
         cubetaje108();
+        document.getElementById("descripcion").innerText="Yogo Melo Vaso 150G"
+        document.getElementById("cubetaje").innerText="108"
  
         if (codigo_1=="4179") {
             return
@@ -308,6 +330,8 @@ function calculos() {
     if(codigo_1=="8649"){
         
         cubetaje60();
+        document.getElementById("descripcion").innerText="BY Black 173G"
+        document.getElementById("cubetaje").innerText=" 60 "
 
         if (codigo_1=="8649") {
             return
@@ -378,6 +402,8 @@ function calculos() {
     if(codigo_1=="4140"){
         
         cubetaje13();
+        document.getElementById("descripcion").innerText="Lch Entera Bol 1.1L"
+        document.getElementById("cubetaje").innerText=" 13 "
 
         if (codigo_1=="4140") {
             return
@@ -387,6 +413,8 @@ function calculos() {
     if(codigo_1=="4555"){
         
         cubetaje13();
+        document.getElementById("descripcion").innerText="Lch Desl Bol 1.1L"
+        document.getElementById("cubetaje").innerText=" 13 "
 
         if (codigo_1=="4555") {
             return
@@ -396,6 +424,8 @@ function calculos() {
     if(codigo_1=="5013"){
         
         cubetaje13();
+        document.getElementById("descripcion").innerText="Lch SemiDesc Bol 1.1L"
+        document.getElementById("cubetaje").innerText=" 13 "
 
         if (codigo_1=="5013") {
             return
@@ -405,6 +435,8 @@ function calculos() {
     if(codigo_1=="5014"){
         
         cubetaje13();
+        document.getElementById("descripcion").innerText="Lch Desc Bol 1.1L"
+        document.getElementById("cubetaje").innerText=" 13 "
 
         if (codigo_1=="5014") {
             return
@@ -414,6 +446,8 @@ function calculos() {
     if(codigo_1=="5384"){
         
         cubetaje13();
+        document.getElementById("descripcion").innerText="Lch Desl Desc Bol 1.1L"
+        document.getElementById("cubetaje").innerText=" 13 "
 
         if (codigo_1=="5384") {
             return
@@ -571,6 +605,8 @@ function calculos() {
     if(codigo_1=="4642"){
         
         cubetaje15x70();
+        document.getElementById("descripcion").innerText="Yogo Meloc Bol 1000G"
+        document.getElementById("cubetaje").innerText=" 15 "
 
         if (codigo_1=="4642") {
             return
@@ -580,6 +616,8 @@ function calculos() {
     if(codigo_1=="4641"){
         
         cubetaje15x70();
+        document.getElementById("descripcion").innerText="Yogo Mor Bol 1000G"
+        document.getElementById("cubetaje").innerText=" 15 "
 
         if (codigo_1=="4641") {
             return
@@ -589,6 +627,8 @@ function calculos() {
     if(codigo_1=="4640"){
         
         cubetaje15x70();
+        document.getElementById("descripcion").innerText="Yogo Fre Bol 1000G"
+        document.getElementById("cubetaje").innerText=" 15 "
 
         if (codigo_1=="4640") {
             return
@@ -689,6 +729,8 @@ function calculos() {
     if(codigo_1=="11696"){
         
         cubetaje123();
+        document.getElementById("descripcion").innerText="Boggy Cza Vaso 108G"
+        document.getElementById("cubetaje").innerText=" 123 "
 
         if (codigo_1=="11696") {
             return
@@ -698,6 +740,8 @@ function calculos() {
     if(codigo_1=="11697"){
         
         cubetaje123();
+        document.getElementById("descripcion").innerText="Boggy Fre Vaso 108G"
+        document.getElementById("cubetaje").innerText=" 123 "
 
         if (codigo_1=="11697") {
             return
@@ -919,6 +963,8 @@ function calculos() {
     if(codigo_1=="10668"){
         
         cubetaje63();
+        document.getElementById("descripcion").innerText="Yogo Cer Fre Vaso 130G"
+        document.getElementById("cubetaje").innerText=" 63 "
 
         if (codigo_1=="10668") {
             return
@@ -928,6 +974,8 @@ function calculos() {
     if(codigo_1=="10670"){
         
         cubetaje63();
+        document.getElementById("descripcion").innerText="Yogo Cer Nat Vaso 130G"
+        document.getElementById("cubetaje").innerText=" 63 "
 
         if (codigo_1=="10670") {
             return
@@ -948,6 +996,8 @@ function calculos() {
     if(codigo_1=="8633"){
         
         cubetaje63();
+        document.getElementById("descripcion").innerText="Bon yurt Chocgoz 171G"
+        document.getElementById("cubetaje").innerText=" 63 "
 
         if (codigo_1=="8633") {
             return
@@ -959,6 +1009,9 @@ function calculos() {
     if(codigo_1=="4743"){
         
         cubetaje10x70();
+        document.getElementById("descripcion").innerText="Mplx8 Und Yogo Multsab Bol 150G"
+        document.getElementById("cubetaje").innerText=" 10 "
+        
 
         if (codigo_1=="4743") {
             return
@@ -996,6 +1049,8 @@ function calculos() {
     if(codigo_1=="15536"){
         
         cubetaje162();
+        document.getElementById("descripcion").innerText="Yogo Cuchareable Fre 100G"
+        document.getElementById("cubetaje").innerText=" 162 "
 
         if (codigo_1=="15536") {
             return
@@ -1005,6 +1060,8 @@ function calculos() {
     if(codigo_1=="15537"){
         
         cubetaje162();
+        document.getElementById("descripcion").innerText="Yogo Cuchareable Melo 100G"
+        document.getElementById("cubetaje").innerText=" 162 "
 
         if (codigo_1=="15537") {
             return
@@ -1670,10 +1727,21 @@ function calculos() {
         if(codigo_1=="4450"){
         
             cubetaje80();
-            document.getElementById("descripcion").innerText="Avena Vaso 250G"
+            document.getElementById("descripcion").innerText="Avena Orig Vaso 250G"
             document.getElementById("cubetaje").innerText="80"
     
             if (codigo_1=="4450") {
+                return
+            }
+        }
+
+        if(codigo_1=="8499"){
+        
+            cubetaje80();
+            document.getElementById("descripcion").innerText="Avena Fnsse Vaso 250G"
+            document.getElementById("cubetaje").innerText="80"
+    
+            if (codigo_1=="8499") {
                 return
             }
         }
@@ -1774,6 +1842,17 @@ function calculos() {
             }
         }
 
+        if(codigo_1=="4430"){
+        
+            cubetaje27_tetras();
+            document.getElementById("descripcion").innerText="Alpin Choc Caj 200Ml"
+            document.getElementById("cubetaje").innerText="27"
+    
+            if (codigo_1=="4430") {
+                return
+            }
+        }
+
         if(codigo_1=="4445"){
         
             cubetaje27_tetras();
@@ -1781,6 +1860,28 @@ function calculos() {
             document.getElementById("cubetaje").innerText="27"
     
             if (codigo_1=="4445") {
+                return
+            }
+        }
+
+        if(codigo_1=="4446"){
+        
+            cubetaje27_tetras();
+            document.getElementById("descripcion").innerText="Alpin Vlla Caj 200Ml"
+            document.getElementById("cubetaje").innerText="27"
+    
+            if (codigo_1=="4446") {
+                return
+            }
+        }
+
+        if(codigo_1=="5150"){
+        
+            cubetaje27_tetras();
+            document.getElementById("descripcion").innerText="Frupper Fre Caj 200Ml"
+            document.getElementById("cubetaje").innerText="27"
+    
+            if (codigo_1=="5150") {
                 return
             }
         }
@@ -1814,6 +1915,17 @@ function calculos() {
             document.getElementById("cubetaje").innerText="27"
     
             if (codigo_1=="7202") {
+                return
+            }
+        }
+
+        if(codigo_1=="11743"){
+        
+            cubetaje27_tetras();
+            document.getElementById("descripcion").innerText="Yogo Fre Caj 185ML"
+            document.getElementById("cubetaje").innerText="27"
+    
+            if (codigo_1=="11743") {
                 return
             }
         }
@@ -2018,6 +2130,31 @@ function calculos() {
                 return
             }
         }
+
+        /* cubetaje24bols() */
+
+        if(codigo_1=="11308"){
+        
+            cubetaje24bols();
+            document.getElementById("descripcion").innerText="Frutto Manz Bot 300Ml"
+            document.getElementById("cubetaje").innerText="24"
+    
+            if (codigo_1=="11308") {
+                return
+            }
+        }
+
+        if(codigo_1=="11309"){
+        
+            cubetaje24bols();
+            document.getElementById("descripcion").innerText="Frutto Pera Bot 300Ml"
+            document.getElementById("cubetaje").innerText="24"
+    
+            if (codigo_1=="11309") {
+                return
+            }
+        }
+
 
 
 
@@ -2784,6 +2921,45 @@ function calculos() {
             var real_estibas=parseInt(no_estibas);
             
             var no_cubetas=real_estibas*840;
+            var no_cubetas_result=cantidad_2-no_cubetas;
+            var resultado_final_cubetas=no_cubetas_result/24;
+            document.getElementById("cubetas").innerText=parseInt(resultado_final_cubetas);
+            var resultado_final_cubetas_real=parseInt(resultado_final_cubetas)
+    
+            var cubetas_unidades= resultado_final_cubetas_real*24;
+            var suma_estibas_cubetas=no_cubetas+cubetas_unidades;
+            var unidades_reales= cantidad_2-suma_estibas_cubetas;
+    
+            document.getElementById("unidades").innerText=parseInt(unidades_reales);
+            
+       
+            
+        }
+    
+        else{
+            document.getElementById("estiba").innerText="0";
+            var cubetas_2=cantidad_2/24;
+            var cubetas_real=parseInt(cubetas_2);
+            document.getElementById("cubetas").innerText=parseInt(cubetas_real);
+            var cubetas_a_unidades=cubetas_real*24;
+            var unidades_2=cantidad_2-cubetas_a_unidades;
+            document.getElementById("unidades").innerText=parseInt(unidades_2);
+    
+          
+        }
+    }
+
+    function cubetaje24bols() {
+        
+        
+
+        if (cantidad_2>=2520) {
+    
+            var no_estibas= cantidad_2/2520;
+            document.getElementById("estiba").innerText=parseInt(no_estibas);
+            var real_estibas=parseInt(no_estibas);
+            
+            var no_cubetas=real_estibas*2520;
             var no_cubetas_result=cantidad_2-no_cubetas;
             var resultado_final_cubetas=no_cubetas_result/24;
             document.getElementById("cubetas").innerText=parseInt(resultado_final_cubetas);
@@ -3747,13 +3923,5 @@ function calculos() {
           
         }
     }
-    
-
-
-
-    
-
-
-    
     
 }
