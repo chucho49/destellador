@@ -261,7 +261,7 @@ function calculos() {
         document.getElementById("descripcion").innerText="Yogo Melo Vaso 150G"
         document.getElementById("cubetaje").innerText="108"
  
-        if (codigo_1=="4179") {
+        if (codigo_1=="4768") {
             return
         }
          
