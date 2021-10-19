@@ -7,7 +7,7 @@ body {
 }
 
 body .contenedor_padre {
-  background-color: #0646da;
+  background-color: #1E5128;
   padding: 10px;
   width: 90%;
   height: 240px;
@@ -21,6 +21,7 @@ body .contenedor_padre {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin: 150px auto;
+  border: solid 3px black;
 }
 
 body .contenedor_padre .consulta {
@@ -43,10 +44,28 @@ body .contenedor_padre .consulta {
 
 body .contenedor_padre .consulta input {
   width: 65%;
+  border: solid 2px black;
+  outline: none;
+}
+
+body .contenedor_padre .consulta input .negacion {
+  border-color: red;
+  color: red;
 }
 
 body .contenedor_padre .consulta button {
   width: 30%;
+  background: black;
+  color: #ffffff;
+  border: none;
+  height: 20%;
+  cursor: pointer;
+  font-family: 'Arvo', serif;
+}
+
+body .contenedor_padre .consulta button:hover {
+  background-color: #1D1D1D;
+  border: solid 1px;
 }
 
 body .contenedor_padre .resultado {
@@ -70,7 +89,29 @@ body .contenedor_padre .resultado span .label_1 {
 
 body .contenedor_padre .resultado span label {
   padding: 0px;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Arvo', serif;
   color: white;
+}
+
+body footer {
+  background-color: #1E5128;
+  height: 59px;
+  text-align: center;
+  font-family: 'Arvo', serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 600px) {
+  body .contenedor_padre {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
