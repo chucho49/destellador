@@ -22,9 +22,17 @@
 
         <div class="consulta">
 
-            <input id="codigo_pro" type="number"  placeholder="Coloque Codigo del producto">
-            <input id="cantidad_pro" type="number" placeholder="coloque cantidad">
-            <button type="button" onclick="calculos()">Calcular</button>
+            <div class="form-consulta">
+
+                <input id="codigo_pro" type="number"  placeholder="Coloque Codigo del producto">
+                <input id="cantidad_pro" type="number" placeholder="coloque cantidad">
+            
+            </div>
+            
+            <div class="buttons">
+                <button class="button-calcular" type="button" onclick="calculos()">Calcular</button>
+                <button type="button" onclick="denuevo()">De Nuevo</button>
+            </div>
         </div>
 
         <div class="resultado">
