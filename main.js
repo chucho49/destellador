@@ -1,3 +1,10 @@
+function denuevo() {
+    
+    document.getElementById("codigo_pro").innerText="";
+    document.getElementById("cantidad_pro").innerText="";
+}
+
+
 function calculos() {
 
     var codigo_1=document.getElementById("codigo_pro").value;
@@ -3369,6 +3376,10 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 26-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
+
             
        
             
@@ -3382,6 +3393,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*26;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=26-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3409,6 +3423,8 @@ function calculos() {
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
             
+            var restadas= 91-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
        
             
         }
@@ -3421,6 +3437,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*91;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=91-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3447,6 +3466,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 90-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -3460,6 +3482,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*90;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=90-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3486,6 +3511,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 28-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -3499,6 +3527,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*28;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=28-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3525,6 +3556,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 48-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -3538,6 +3572,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*48;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=48-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3564,6 +3601,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 32-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -3577,6 +3617,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*32;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=32-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3603,6 +3646,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 80-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -3616,6 +3662,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*80;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=80-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3642,6 +3691,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 105-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -3655,6 +3707,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*105;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=105-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3681,6 +3736,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 18-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -3694,6 +3752,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*18;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=18-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3720,6 +3781,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 39-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -3733,6 +3797,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*39;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=39-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3759,6 +3826,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 27-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -3772,6 +3842,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*27;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=27-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3798,6 +3871,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 69-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -3811,6 +3887,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*69;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=69-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3838,6 +3917,8 @@ function calculos() {
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
             
+            var restadas= 36-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
        
             
         }
@@ -3850,6 +3931,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*36;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=36-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3876,6 +3960,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 105-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -3889,6 +3976,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*105;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=105-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3915,6 +4005,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 10-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -3928,6 +4021,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*10;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=10-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3954,6 +4050,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 12-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -3967,6 +4066,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*12;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=12-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -3993,6 +4095,9 @@ function calculos() {
             var unidades_reales= cantidad_2-suma_estibas_cubetas;
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
+
+            var restadas= 6-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
             
        
             
@@ -4006,6 +4111,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*6;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
+
+            var restada2=6-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
     
           
         }
@@ -4033,6 +4141,8 @@ function calculos() {
     
             document.getElementById("unidades").innerText=parseInt(unidades_reales);
             
+            var restadas= 11-unidades_reales
+            document.getElementById("restada").innerText=("- " + restadas);
        
             
         }
@@ -4045,7 +4155,9 @@ function calculos() {
             var cubetas_a_unidades=cubetas_real*11;
             var unidades_2=cantidad_2-cubetas_a_unidades;
             document.getElementById("unidades").innerText=parseInt(unidades_2);
-    
+            
+            var restada2=11-unidades_2
+            document.getElementById("restada").innerText=("- " + restada2);
           
         }
     }
