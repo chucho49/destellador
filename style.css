@@ -10,7 +10,7 @@ body .contenedor_padre {
   background-color: #1E5128;
   padding: 10px;
   width: 90%;
-  height: 240px;
+  height: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,28 +42,53 @@ body .contenedor_padre .consulta {
   height: 120px;
 }
 
-body .contenedor_padre .consulta input {
-  width: 65%;
+body .contenedor_padre .consulta .form-consulta {
+  width: 60%;
+}
+
+body .contenedor_padre .consulta .form-consulta input {
+  width: 100%;
   border: solid 2px black;
   outline: none;
+  margin-bottom: 5px;
 }
 
-body .contenedor_padre .consulta input .negacion {
-  border-color: red;
-  color: red;
+body .contenedor_padre .consulta .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 18px;
 }
 
-body .contenedor_padre .consulta button {
-  width: 30%;
+body .contenedor_padre .consulta .buttons .button-calcular {
+  width: 60%;
   background: black;
   color: #ffffff;
   border: none;
-  height: 20%;
+  height: 110%;
   cursor: pointer;
   font-family: 'Arvo', serif;
+  margin-right: 10px;
 }
 
-body .contenedor_padre .consulta button:hover {
+body .contenedor_padre .consulta .buttons .button-calcular:hover {
+  background-color: #1D1D1D;
+  border: solid 1px;
+}
+
+body .contenedor_padre .consulta .buttons button {
+  width: 60%;
+  background: black;
+  color: #ffffff;
+  border: none;
+  height: 110%;
+  cursor: pointer;
+  font-family: 'Arvo', serif;
+  margin-left: 10px;
+}
+
+body .contenedor_padre .consulta .buttons button:hover {
   background-color: #1D1D1D;
   border: solid 1px;
 }
